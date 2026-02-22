@@ -85,3 +85,46 @@ function calculator(num1, num2, operator) {
     }
 }
 calculator(3,5,"*")
+
+// last 4 function is not right
+function checkNumber(num){
+    if(num>0){
+        console.log("positive")
+    }
+    else if(num<0){
+        console.log("negative")
+    }
+    else{
+        console.log("zero")
+    }
+}
+checkNumber(5)
+checkNumber(-3)
+checkNumber()
+
+
+
+function calculateSI(p, r, t){
+    const si = (p * r * t) / 100;
+    console.log(si)
+}
+calculateSI(1000, 5, 2)
+
+
+
+function toFahrenheit (celsius){
+    const F = (celsius * 9/5) + 32
+    console.log(F)
+
+}
+toFahrenheit(25)
+
+function canVote(age){
+    if(age>=18){
+        console.log("eligible ")
+    }
+    else{
+        console.log("not eligible")
+    }
+}
+canVote(18)
