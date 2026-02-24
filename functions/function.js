@@ -119,6 +119,7 @@ function toFahrenheit (celsius){
 }
 toFahrenheit(25)
 
+
 function canVote(age){
     if(age>=18){
         console.log("eligible ")
