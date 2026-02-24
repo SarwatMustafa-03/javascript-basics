@@ -126,5 +126,5 @@ function canVote(age){
     else{
         console.log("not eligible")
     }
-}mmmmmmmmmmmmmmmmmmmmmmmmmm
+}
 canVote(18)
