@@ -129,4 +129,3 @@ function canVote(age){
     }
 }
 canVote(18)
-git commit -m "Added JS functions practice"
